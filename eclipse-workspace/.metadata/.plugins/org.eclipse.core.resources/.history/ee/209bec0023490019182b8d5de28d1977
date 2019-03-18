@@ -1,0 +1,17 @@
+
+public class test5 {
+public static void main(String[] args) {
+
+	
+	for (int i = 0; i < 4; i++) {
+	System.out.println (i);
+//	for (int j =0 ; j < 8; j++) {
+//	System.out.print("*");
+//}
+	// 반복횟수를 i < ? 물음표라는 거만 생각하기
+	for (int j = 0; j <4; j++); 
+	char[] j;
+	System.out.println(j);
+	}
+}
+}

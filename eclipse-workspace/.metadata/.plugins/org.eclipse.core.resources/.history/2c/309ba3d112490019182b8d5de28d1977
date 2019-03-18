@@ -1,0 +1,22 @@
+import java.util.Random;
+
+public class Test11 {
+public static void main(String[] args) {
+	
+	Random randNumber = new Random();
+	
+	int r1 = randNumber.nextInt(6) + 1; //6개가 발생(1~6)
+ 
+	if (r1==1) {
+	 System.out.println("멍멍");
+	 } else if (r1 == 2) {
+	 System.out.println("야옹");
+	 } else  {
+	 System.out.println(r1);
+	
+	
+	 }
+ }
+ }
+
+

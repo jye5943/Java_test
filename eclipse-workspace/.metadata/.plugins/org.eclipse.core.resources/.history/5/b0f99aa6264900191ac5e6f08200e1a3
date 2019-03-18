@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Prof {
+	private static Scanner scan;
+
+	public static void main(String[] args) {
+	
+			int a;
+			int b;
+			int c;	
+			scan = new Scanner(System.in);
+				
+			a = scan.nextInt();
+			b = scan.nextInt();
+			c = scan.nextInt();
+			
+	System.out.println ("총점은" + (a+b+c) + "입니다");
+	
+	
+	}
+	}
+
+	

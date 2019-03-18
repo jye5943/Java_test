@@ -1,0 +1,52 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.math.*;
+
+public class answer {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int N=0;
+		double sum=0;
+		double avg =0.0;
+		ArrayList<Integer> numbers = new ArrayList<>();
+		
+//		System.out.print("input N :");
+//		
+//		N=scan.nextInt();
+//		
+		
+		double[] point = new double[3];
+		for(int i=0;i<3;i++)
+		{
+			System.out.print(i + "번째 점수 입력: ");
+			point[i] = scan.nextInt();
+			sum += point[i];
+		}
+		avg =  sum / 3;
+		
+		System.out.println(avg);
+		
+		// Method 1
+		System.out.printf("%4.2f\n",avg);
+		
+		// Method 2
+		double temp =  Math.round(avg * 100);
+		temp /=100;
+		System.out.println(temp);
+
+		
+		
+		
+		
+//		System.out.println(N);
+		
+//		for (int i = 0; i < 100; i++) {
+//			p1_score = scan.nextInt(); //그냥 외워서 숫자만 바꿔써 
+//		}
+		
+		
+	}
+
+	
+}

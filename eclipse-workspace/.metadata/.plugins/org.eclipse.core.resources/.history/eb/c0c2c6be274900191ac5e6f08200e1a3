@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Prof {
+	private static Scanner scan;
+
+	public static void main(String[] args) {
+	
+			int a;
+			int b;
+			int c;	
+			scan = new Scanner(System.in);
+				
+			a = scan.nextInt();
+			System.out.println("홍길동의 점수는: ")
+			b = scan.nextInt();
+			System.out.println("임꺽정의 점수는: ")
+			c = scan.nextInt();
+			System.out.println("랄랄루의 점수는: ")
+			
+	System.out.println ("총점은" +" "+ (a+b+c)+" "+ "입니다");
+	
+	
+	
+	}
+	}
+
+	

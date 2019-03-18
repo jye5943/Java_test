@@ -1,0 +1,15 @@
+
+public class Prof {
+	public static void main(String[] args) {
+		int a = 0;
+		while (true) {
+			if(a > 100) {
+				break;
+			}
+			System.out.println(a);
+			a++;
+		}
+
+	}
+}
+	
